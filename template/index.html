@@ -5,9 +5,24 @@ TODO: Purpose, version, notes
 	Format recommendations from:
 		http://www.w3.org/TR/html5/syntax.html
 		http://udacity.github.io/frontend-nanodegree-styleguide/
+		https://google.github.io/styleguide/htmlcssguide.xml
 		
 	Notes:
 	IE? will go into "quirks mode"
+	Microsoft Web Expressions complains about the HTML5 incompatibility of the <main> element
+	W3C HTML validator warns that there are no section heading H2-H6 elements
+	
+	TODO(future):  Accessibility:
+				http://webaccess.berkeley.edu/resources/tips/web-accessibility
+				http://www.w3.org/WAI/WCAG20/glance/
+				
+			Touch-optimized:
+				https://jquerymobile.com/
+				
+			Lazy load:
+				Images
+				Javascript
+				Others?
 -->
 
 <!DOCTYPE html>
@@ -58,14 +73,16 @@ TODO: Purpose, version, notes
 	        <!-- TODO:(Udacity inclusion) Use markup instead of CSS to specify size, zoom and orientation -->
 	        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- End of metadata name extensions -->
-
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" >
-		<link rel="stylesheet" href="css/styles.css">
+		<!-- Styles -->
+        	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" >
+			<link rel="stylesheet" href="css/styles.css">
 		
-		<!-- TODO (optional): enforce browser css rendering standards, from http://necolas.github.io/normalize.css/
-			<link rel="stylesheet" href="css/normalize.css">
-		-->
+			<!-- TODO(development): adds development use styles like outline for boxing elements-->
+				<!-- <link rel="stylesheet" href="css/devstyles.css"> -->
+		
+			<!-- TODO (optional): enforce browser css rendering standards, from http://necolas.github.io/normalize.css/
+				<link rel="stylesheet" href="css/normalize.css">
+			-->
 		
 		<!-- TODO: Special cases and workarounds -->
 		
@@ -79,37 +96,17 @@ TODO: Purpose, version, notes
 				}
 				//-->
 			</script>
-			
 		
-		<!-- TODO: End of special cases and workarounds -->
-
-
     </head>
     
     <body>
         <main>
             <header>
-                <div class="content header-content">
-                    <img class="udacity-logo" src="http://cameronwp.github.io/cpcom/static/udacity_logo.svg" alt="Udacity Logo">
-                    <h1>Front-End Apprentice</h1>
+                <div class="stub">
+                    <h1>TODO: Heading Title</h1>
                 </div>
             </header>
-            <section class="hero">
-                <div class="content">
-                    <img class="my-picture" src="images/AlanW.jpg" alt="This is a picture of me">
-                    <p class="iama">My name is...</p>
-                    <p class="my-name my-info">Alan</p>
-                    <p class="iama">I want to be...</p>
-                    <p class="my-info">a front-end master</p>
-                </div>
-            </section>
-            <section class="about-me content">
-                <p class="iama">I live in...</p>
-                <p class="my-info">Bellevue, Washington, USA</p>
-                <p class="iama">My favorite way to work is...</p>
-                <p class="my-info">in a coffee shop</p>
-                <p class="iama">In my free time, I like to...</p>
-                <p class="my-info">Go to the gym and graduate school studies</p>
+            <section class="stub">
             </section>
         </main>
     </body>
