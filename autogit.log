@@ -13,3 +13,9 @@ Changes not staged for commit:
 	modified:   autogit.log
 
 no changes added to commit
+
+E:\UDACITY\FEWD\template># Do "git config --global core.safecrlf false" to turn off warning messages 
+
+E:\UDACITY\FEWD\template># during commit. 
+
+E:\UDACITY\FEWD\template>git add * 
