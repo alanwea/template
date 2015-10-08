@@ -59,3 +59,13 @@ E:\UDACITY\FEWD\template># Do "git config --global core.safecrlf false" to turn 
 E:\UDACITY\FEWD\template># during commit. 
 
 E:\UDACITY\FEWD\template>git add * 
+
+E:\UDACITY\FEWD\template>git commit -m "Auto commit by Windows Task Scheduler" 
+[master a0d87c7] Auto commit by Windows Task Scheduler
+ 1 file changed, 10 insertions(+)
+
+E:\UDACITY\FEWD\template># Do "git config --global core.safecrlf false" to turn off warning messages 
+
+E:\UDACITY\FEWD\template># during commit. 
+
+E:\UDACITY\FEWD\template>git add * 
