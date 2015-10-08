@@ -4,3 +4,12 @@ E:\UDACITY\FEWD\template># Do "git config --global core.safecrlf false" to turn 
 E:\UDACITY\FEWD\template># during commit. 
 
 E:\UDACITY\FEWD\template>git add * 
+
+E:\UDACITY\FEWD\template>git commit -m "Auto commit by Windows Task Scheduler" 
+On branch master
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+	modified:   autogit.log
+
+no changes added to commit
