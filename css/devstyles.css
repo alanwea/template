@@ -1,0 +1,5 @@
+﻿/* Development related styles, should not be included in production */
+
+* {
+	outline: 1px solid red !important;
+}
